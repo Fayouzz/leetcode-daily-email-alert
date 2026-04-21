@@ -47,14 +47,9 @@ cd leetcode-daily-email-alert
 
 ### 2. Create Gmail App Password
 
-1. Go to Google Account Security
-2. Enable **2‑Factor Authentication**
-3. Generate **App Password**
-4. Copy the password
-
 You will use this instead of your Gmail password.
 
----
+## Sensitive credentials are stored securely using GitHub Secrets and are never committed to the repository.
 
 ### 3. Add GitHub Secrets
 
@@ -91,12 +86,13 @@ Actions → Run Workflow
 The GitHub Action runs daily using cron:
 
 ```
-0 3 * * *
+0 5 * * *
+0 17 * * *
 ```
 
 This means:
 
-**Every day at 03:00 UTC**.
+**Every day at 05:00 and 17:00 UTC**.
 
 ---
 
