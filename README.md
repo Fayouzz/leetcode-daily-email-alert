@@ -48,8 +48,7 @@ cd leetcode-daily-email-alert
 ### 2. Create Gmail App Password
 
 You will use this instead of your Gmail password.
-
-## Sensitive credentials are stored securely using GitHub Secrets and are never committed to the repository.
+Sensitive credentials are stored securely using GitHub Secrets and are never committed to the repository.
 
 ### 3. Add GitHub Secrets
 
