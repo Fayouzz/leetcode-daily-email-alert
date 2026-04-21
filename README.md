@@ -1,7 +1,4 @@
-
-# LeetCode Daily Email Alert 🚀
-
-Automatically receive the **LeetCode Daily Challenge** in your email every day.
+# LeetCode Daily Email Alert
 
 This project fetches the daily problem using the LeetCode GraphQL API and sends an email notification using SMTP.  
 It runs automatically using **GitHub Actions**, so your laptop does not need to be running.
@@ -69,11 +66,11 @@ Repository → Settings → Secrets → Actions
 
 Add the following secrets:
 
-| Secret Name | Value |
-|-------------|------|
-| EMAIL_ADDRESS | your gmail |
-| EMAIL_PASSWORD | gmail app password |
-| TO_EMAIL | email to receive alert |
+| Secret Name    | Value                  |
+| -------------- | ---------------------- |
+| EMAIL_ADDRESS  | your gmail             |
+| EMAIL_PASSWORD | gmail app password     |
+| TO_EMAIL       | email to receive alert |
 
 ---
 
@@ -106,7 +103,7 @@ This means:
 ## Example Email
 
 ```
-🚀 LeetCode Daily Problem
+LeetCode Daily Problem
 
 Title: Two Sum
 Difficulty: Easy
@@ -114,16 +111,6 @@ Difficulty: Easy
 Solve here:
 https://leetcode.com/problems/two-sum
 ```
-
----
-
-## Future Improvements
-
-- Telegram notifications
-- Slack alerts
-- AI-generated hints
-- Problem difficulty filters
-- Daily solving streak tracker
 
 ---
 
