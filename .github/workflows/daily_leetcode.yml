@@ -2,8 +2,8 @@ name: LeetCode Daily Email
 
 on:
   schedule:
-    - cron: "0 5 * * *"
-    - cron: "0 17 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 jobs:
