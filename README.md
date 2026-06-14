@@ -7,11 +7,11 @@ It runs automatically using **GitHub Actions**, so your laptop does not need to 
 
 ## Features
 
-- Fetches the LeetCode Daily Challenge
-- Sends formatted email notification
-- Runs automatically every day
-- Secure credential management with GitHub Secrets
-- Simple Python implementation
+- Fetches the LeetCode Daily Challenge.
+- Sends formatted email notification.
+- Runs automatically every day.
+- Secure credential management with GitHub Secrets.
+- Simple Python implementation.
 
 ---
 
